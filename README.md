@@ -6,5 +6,5 @@ Project ini menggunakan:
 - Kamera real-time
 - Gesture AI: scroll, zoom, deteksi arah jari
 
-Dibuat oleh: [Nama kamu]  
-Tujuan: Portofolio pribadi & belajar jadi AI Engineer ✨
+Dibuat oleh: Muhammad Riyandi 
+Tujuan: Portofolio pribadi & belajar jadi AI Engineer

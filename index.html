@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pergerakan jari AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="btn-camera">Aktifkan Kamera</button>
+    <div id="camera-wrapper" style="position: relative; width: 640px;">
+        <canvas id="canvas"></canvas>
+        <video id="video" autoplay></video>
+    </div>
+
+    <div id="status" style="font-size: 1.5rem; margin-top: 20px; position: absolute; z-index: 2; color: white">✋ Netral</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+video {
+    width: 400px;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+video, canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#video,
+#canvas {
+    width: 640px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#btn-camera {
+    position: relative; /* atau absolute dengan z-index lebih tinggi */
+    z-index: 10;
+    margin-bottom: 10px;
+}
+
+#canvas {
+    z-index: 1;
+}
